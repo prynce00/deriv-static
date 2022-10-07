@@ -11,7 +11,7 @@ const App = () => {
     });
 
     
-   const test = await octokit.request("GET /repos/prince-deriv/deriv-static/contents/", {
+   const test = await octokit.request("GET /repos/prince-deriv/deriv-static/contents/src", {
       owner: "OWNER",
       repo: "REPO",
       path: "PATH",
